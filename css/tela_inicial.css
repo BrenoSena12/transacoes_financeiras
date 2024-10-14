@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    text-align: center;
+}
+
+main{
+    margin: auto;
+}
+
+h1{
+    font-size:100px;
+    margin-top: 10% ;
+    margin-bottom: 5% ;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 70%;
+    margin: auto;
+}
+
+label{
+    font-size: 30px;
+}
+
+input{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+::placeholder{
+    font-size: 30px;
+    text-align: center;
+}
+
+#tipo{
+    height: 55px;
+    border-radius: 15px;
+}
+
+select{
+    font-size: 30px;
+}
+
+
+.botao input{
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: white;
+    background-color: #6e2317;
+    transition: 0.5s;
+}
+
+.botao input:hover{
+    background-color: #360906;
+    font-size: 25px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.voltar{
+    margin-top: 40px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #360906;
+    transition: 0.5s;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}

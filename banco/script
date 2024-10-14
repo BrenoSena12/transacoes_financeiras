@@ -1,0 +1,10 @@
+CREATE DATABASE transacoes;
+
+USE transacoes;
+
+CREATE TABLE tb_transacoes(
+id INT(11) AUTO_INCREMENT PRIMARY KEY,
+categoria VARCHAR(30),
+valor FLOAT,
+tipo VARCHAR(45)
+);
